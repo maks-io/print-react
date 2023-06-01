@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "esModuleInterop": true,
+    "lib": ["ES2020", "DOM"],
+    "moduleResolution": "Node",
+    "outDir": "build",
+    "jsx": "react",
+    "declaration": true,
+    "paths": {
+      "$/*": ["./*"]
+    },
+    "module": "ES6"
+  },
+  "include": ["src", "globals.d.ts"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "print-react",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "clear-build-folder": "rm -rf ./build",
+    "transpile": "tsc",
+    "fix-paths": "tsc-alias",
+    "build": "yarn clear-build-folder && yarn transpile && yarn fix-paths",
+    "dev": "yarn nodemon"
+  },
+  "keywords": [
+    "react",
+    "print",
+    "component",
+    "dialog"
+  ],
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maks-io/print-react.git"
+  },
+  "author": "Markus Kurzmann <markus@kurzmann.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maks-io/print-react/issues"
+  },
+  "homepage": "https://github.com/maks-io/print-react#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8",
+    "tsc": "^2.0.4",
+    "tsc-alias": "^1.8.6",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "sleep-lightweight": "^1.0.1"
+  }
+}
