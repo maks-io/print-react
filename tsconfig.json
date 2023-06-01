@@ -9,8 +9,7 @@
     "declaration": true,
     "paths": {
       "$/*": ["./*"]
-    },
-    "module": "ES6"
+    }
   },
   "include": ["src", "globals.d.ts"],
   "exclude": ["node_modules"]

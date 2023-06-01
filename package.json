@@ -1,6 +1,6 @@
 {
   "name": "print-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lightweight component wrapper to print the wrapped component when desired",
   "main": "build/index.js",
   "types": "build/index.d.ts",
